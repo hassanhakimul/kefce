@@ -1,0 +1,46 @@
+.banner-font{
+   color:  #DE6509 ;
+}
+
+.c2a-btn {
+  margin: 48px auto 0;
+  margin: 4.8rem auto 0;
+}
+.play{
+    background-color: aliceblue;
+    color: #DE6509;
+
+}
+.btn-default {
+  color: #fff;
+  background-color: #EE7D0B;
+  border-color: #111e6c;
+  transition: all 1s ease;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 18px 28px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 50px;
+}
+
+.btn-group  {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  box-shadow: 0;
+}
+.hder{
+ background-color: #FFECE7;
+color: #EE7D0B;
+}
+.order{
+  font-weight: 500;
+  text-decoration: none;
+}

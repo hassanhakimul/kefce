@@ -1,0 +1,28 @@
+.another{
+    color:#707070 ;
+    font-size: 60px;
+}
+ul  .list{
+    color: #ED7C0A;
+    font-size: 25px;
+}
+ .list .para{
+    color: #9A999C;
+    font-size: 20px;
+}
+.bn{
+    background-color: #EE7D0B;
+         
+ }
+ .findout_bn{
+border: none;
+background-color: #EE7D0B;
+ }
+ .findout_bn:hover{
+
+ }
+ .another_marge{
+    margin: 80px 10px;
+   
+ }
+ 

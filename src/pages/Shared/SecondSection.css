@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Varela+Round&display=swap');
+
+body {
+  font-family: "Tajawal", Arial;
+}
+.second-bg{
+    background-color: #E2E8F0;
+}
+.third_bg{
+    background-color: white;
+}
