@@ -1,6 +1,9 @@
 .another{
     color:#707070 ;
-    font-size: 60px;
+    font-size: 64px;
+}
+ul >li{
+    list-style: none;
 }
 ul  .list{
     color: #ED7C0A;
@@ -22,7 +25,7 @@ background-color: #EE7D0B;
 
  }
  .another_marge{
-    margin: 80px 10px;
+    margin: 90px 10px;
    
  }
  

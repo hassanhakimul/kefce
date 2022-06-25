@@ -5,7 +5,9 @@ import { BsFillPlayFill } from "react-icons/bs";
 import { HiArrowRight } from "react-icons/hi";
 import background from '../../images/bg.png'
 import burger from '../../images/bg-up.png'
+import { Link, useNavigate } from "react-router-dom";
 const Banner = () => {
+    const navigate=useNavigate();
     return (
         <div>
               <div class="container mt-5">
@@ -16,9 +18,9 @@ const Banner = () => {
                         <span className='banner-font'>your City</span></h1>
                     <h6 className='mt-4 text-warp'> We’re hungry for the best things in life:<br />  bringing the best food and redefining the shopping experience to our customers.</h6>
                     <div className='d-flex align-items-center mt-5'>
-                        <a type="button" class="btn btn-default btn-lg border border-white " href="#">Order Now<HiArrowRight /></a>
+                        <a type="button" class="btn btn-default btn-lg border border-white " href='#favourite'>Order Now<HiArrowRight /></a>
                         <button className='mx-4 rounded-circle border border-white play shadow p-2 bg-body rounded'><BsFillPlayFill /></button>
-                        <a type="button" class=" btn-lg  text-dark order" href="#">Order Process</a>
+                        <Link type="button" class=" btn-lg  text-dark order" to='/orderProcess'>Order Process</Link>
                     </div>
                 </div>
                 <div class="col  col-lg-5" style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', }}>

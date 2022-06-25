@@ -8,7 +8,7 @@ import { FcShare } from "react-icons/fc";
 const Product = () => {
     return (
       <div className=' mt-5'>
-        <h1 className='d-flex align-items-center justify-content-center banner_font'>Get Your <span className='hder ms-3'> Favourite's</span></h1>
+        <h1 className='d-flex align-items-center justify-content-center banner_font' id='favourite'>Get Your <span className='fab-color ms-3'> Favourite's</span></h1>
           <div class="row mt-5">
     <div class="col-md-4 col-sm-6 g-5">
         <div class="product-grid">

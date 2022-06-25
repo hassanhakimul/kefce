@@ -1,6 +1,7 @@
 import React from 'react';
 import './AnotherSection.css'
 import ServeAccoridin from './ServeAccoridin';
+import { BsCheckCircleFill } from "react-icons/bs";
 import serve from '../../images/serve.jpg'
 const AnotherSection = () => {
     return (
@@ -11,10 +12,10 @@ const AnotherSection = () => {
                         <h1 className=' another'>Get Ready to get tasty dishes</h1>
                         <p className='mt-2 fw-light'>Create a better workplace, powered by food. Here are just some of the perks of foodpanda for business.</p>
                         <ul>
-                            <li className='list'><p className='para'>Improve employee satisfaction and retention</p></li>
-                            <li className='list'><p className='para'>Encourage cohesion and cooperation</p></li>
-                            <li className='list'><p className='para'>Increase team productivity and morale</p></li>
-                            <li className='list'><p className='para'>Access to exclusive corporate menus and discounts</p></li>
+                            <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Improve employee satisfaction and retention</span></li>
+                            <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Encourage cohesion and cooperation</span></li>
+                            <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Increase team productivity and morale</span></li>
+                            <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Access to exclusive corporate menus and discounts</span></li>
                         </ul>
                         <button className='rounded p-2 mt-3  text-light fw-2 findout_bn'>Find Out More</button>
                     </div>
@@ -32,10 +33,10 @@ const AnotherSection = () => {
                     <h1 className=' another'>Benefits that go beyond tasty dishes</h1>
                     <p className='mt-2 fw-light'>Create a better workplace, powered by food. Here are just some of the perks of foodpanda for business.</p>
                     <ul>
-                        <li className='list'><p className='para'>Improve employee satisfaction and retention</p></li>
-                        <li className='list'><p className='para'>Encourage cohesion and cooperation</p></li>
-                        <li className='list'><p className='para'>Increase team productivity and morale</p></li>
-                        <li className='list'><p className='para'>Access to exclusive corporate menus and discounts</p></li>
+                        <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Improve employee satisfaction and retention</span></li>
+                        <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Encourage cohesion and cooperation</span></li>
+                        <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Increase team productivity and morale</span></li>
+                        <li className='list'><BsCheckCircleFill/><span className='para ms-3'>Access to exclusive corporate menus and discounts</span></li>
                     </ul>
                     <button className='rounded p-2 mt-3  text-light fw-2 findout_bn'>Find Out More</button>
                 </div>
@@ -57,3 +58,7 @@ const AnotherSection = () => {
 };
 
 export default AnotherSection;
+
+
+
+{/*  */}
