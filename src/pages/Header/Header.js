@@ -17,21 +17,21 @@ const navigate=useNavigate();
   }
   
   return (
-    <Navbar collapseOnSelect expand="lg" className='fw-bold'>
+    <Navbar collapseOnSelect expand="lg"  className='fw-bold '>
       <Container>
         <Navbar.Brand as={Link} to="/home"><img src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto ms-5">
+          <Nav className="me-auto herder_li ms-5">
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
             <Nav.Link as={Link} to="/service">Service</Nav.Link>
-            <Nav.Link as={Link} to="/shop">Shop</Nav.Link>
             {
                 user ?
                   <button className='btn btn-link  text-decoration-none sign_out' onClick={handleSignOut}>Sign Out</button>
                   :
-                  <Nav.Link as={Link} to="login" >
+                  <Nav.Link as={Link} to="/login" >
                     Sign in
                   </Nav.Link>}
           </Nav>

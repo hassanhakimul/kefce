@@ -54,7 +54,7 @@ const Footer = () => {
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><BsTwitter/><i class="fab  fa-2x fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><FaFacebookF/><i class="fab fa-2x fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><BsInstagram/><i class="fab fa-2x fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><BsYoutube/><i class="fab fa-2x fa-youtube"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><BsYoutube/><i class="fab fa-2x fa-youtube "></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><BsGoogle/><i class="fab fa-2x fa-google"></i></a></li>
           </ul>
         </div>

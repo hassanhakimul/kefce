@@ -8,7 +8,9 @@ import Cart from "./pages/Cart.js/Cart";
 import Login from "./Login/Login";
 import Register from "./Login/Register";
 import RequireAuth from "./Login/RequireAuth";
-
+import Menu from "./pages/Menu/Menu";
+import Service from "./pages/Shared/Service";
+import Shop from './pages/Shop/Shop'
 function App() {
   return (
     <div>
@@ -16,12 +18,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
+        <Route path="/menu" element={<Menu />}></Route>
+        <Route path="/shop" element={<Shop/>}></Route>
+        <Route path="/service" element={<Service />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/orderprocess" element={
           <RequireAuth>
             <OrderProcess />
           </RequireAuth>
-
         }></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
